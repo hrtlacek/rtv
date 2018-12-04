@@ -1,6 +1,7 @@
 # Real Time Visual Content Creation - Overview and Comparison
 
 This Repository tries to compile information about programmable real time video processing environments.
+
 Not included are environments that are so broad that one could do just about everything (like C++) or complete tools without the need or possibility to program anything(or very little, such as resolume).
 
 *Discliamer*: The author of this document is basically a TouchDesigner/Max/python/GLSL guy doing live performances and installations in an art context. Any bias towards these tools/needs are tried to be avoided but probably inevitable.
