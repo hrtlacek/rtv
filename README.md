@@ -3,24 +3,31 @@
 ## Environments
 ### Short List
 Environments listed here are headed towards creation and/or manipulation of real-time video content as a big part of their whole purpose. Environments excluded here are tools that arguably have a different purpose as a whole. Also excluded are unreleased, unstable or outdated environments.
-- TouchDesigner https://www.derivative.ca/
-- Max/MSP/Jitter https://cycling74.com/
-- vvvv https://vvvv.org/
-- Processing https://processing.org/
-- Unity https://unity3d.com/
-- Unreal Engine https://www.unrealengine.com
-- KodeLife https://hexler.net/software/kodelife
-- openFrameworks https://openframeworks.cc/
-- vizrt http://www.vizrt.com/
-- watchout https://www.dataton.com/products/watchout
-- smode http://smode.fr/products/
-- notch https://www.notch.one/
-
 
 - cables.gl https://cables.gl/
+- fugio https://www.bigfug.com/software/fugio/
+- isadora https://troikatronix.com/
+- KodeLife https://hexler.net/software/kodelife
+- Max/MSP/Jitter https://cycling74.com/
+- notch https://www.notch.one/
+- openFrameworks https://openframeworks.cc/
+- pd/ofelia https://github.com/cuinjune/ofxOfelia
+- Processing https://processing.org/
+- smode http://smode.fr/products/
+- TouchDesigner https://www.derivative.ca/
+- Unity https://unity3d.com/
+- Unreal Engine https://www.unrealengine.com
+- vvvv https://vvvv.org/
+- vvvvjs http://vvvvjs.com/
+- wire https://www.moditone.com/wire
+
+### Other
+
+- vizrt http://www.vizrt.com/
+- watchout https://www.dataton.com/products/watchout
 - MATLAB https://www.mathworks.com/products/matlab.html
 - Python https://www.python.org/
-- pd/GEM https://duckduckgo.com/?q=pure+data+gem&ia=web
+- pd/GEM https://puredata.info/downloads/gem
 - Quarz Composer https://developer.apple.com/library/archive/documentation/GraphicsImaging/Conceptual/QuartzComposerUserGuide/qc_intro/qc_intro.html
 
 
