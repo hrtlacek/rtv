@@ -14,6 +14,7 @@ This example should play back an audio file or use live audio input and use this
 ### Short List
 Environments listed here are headed towards creation and/or manipulation of real-time video content as a big part of their whole purpose. Environments excluded here are tools that arguably have a different purpose as a whole. Also excluded are unreleased, unstable or outdated environments.
 
+- cinder https://www.libcinder.org/
 - fugio https://www.bigfug.com/software/fugio/
 - isadora https://troikatronix.com/
 - KodeLife https://hexler.net/software/kodelife
@@ -23,11 +24,14 @@ Environments listed here are headed towards creation and/or manipulation of real
 - pd/ofelia https://github.com/cuinjune/ofxOfelia
 - Processing https://processing.org/
 - smode http://smode.fr/products/
+- tooll http://tooll.io/
 - TouchDesigner https://www.derivative.ca/
 - Unity https://unity3d.com/
 - Unreal Engine https://www.unrealengine.com
+- ventuz https://www.ventuz.com/
 - vvvv https://vvvv.org/
 - vvvvjs http://vvvvjs.com/
+- vuo https://vuo.org/
 
 ### Unreleased/Beta/coming Soon
 - cables.gl https://cables.gl/
