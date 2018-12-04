@@ -1,0 +1,260 @@
+
+{
+  softwareVersion = 
+  {
+    programName = "Smode Studio", 
+    branchName = "8.3", 
+    majorVersion = 8, 
+    minorVersion = 3, 
+    buildRevision = 17, 
+    commitHash = "68d733ccbd"
+  }, 
+  content = => 'Compo @f617c8327cfb372e 
+  {
+    tools = 
+    {
+      => 'LinkBank @6b46e89cfd39b325 
+      {
+        links = 
+        {
+          => @e8a0109de4a084cc 
+          {
+            source = => 'AudioSpectrumLinkSource @90097dc1e3b7d2e7 
+            {
+              modifiers = 
+              {
+                => 'RemapLinkModifier @1e7ce2f5fbc29ecb {outputRange = {center = 1.67, size = 2.5, begin = 0.42, end = 2.92}}, 
+                => 'SmoothLinkModifier @76b99dd754767a02 {positiveSpeed = 48.9762, negativeSpeed = 11.63}
+              }, 
+              extractor = 
+              {
+                frequencyInterval = {center = 0.522070035433, size = 0.696242038217, begin = 0.173949016325, end = 0.870191054542}, 
+                amplitudeInterval = {center = 0.0353309859155, size = 0.070661971831, begin = 0., end = 0.070661971831}
+              }
+            }, 
+            targets = 
+            {
+              => 'ParameterLinkTarget @5fd53302dbb45666 {target = {"data", -> @b6f014f7a6733f22, "radius"}}
+            }
+          }
+        }
+      }
+    }, 
+    rasterizer = #1 {resolution = {preset = "hd1080"}, quality = {automatic = False}, alphaLayer = False}, 
+    mainAnimation = => 'TimelineCue @edd2bf1facf1d2a1 
+    {
+      transport = {timeBase = {enabled = True, value = {p = 50}}}, 
+      parameters = {out = {value = 60.}}, 
+      timeCode = {clock = {factory = "Remote Clock"}}
+    }, 
+    renderables = 
+    {
+      => 'Node @6b53d8ff6d639913 
+      {
+        generator = => 'SphereNodeGenerator @b6f014f7a6733f22 {radius = 0.422538437901}, 
+        placement = => 'PositionOrientation3dPlacement @edf50ba519226d85 void, 
+        users = 
+        {
+          => 'SurfaceNodeRenderer @df77742feeaa1fac 
+          {
+            components = 
+            {
+              => 'DiffuseSurfaceComponent @ceb9b37dd1740447 
+              {
+                map = => 'UniformLayerGenerator @87383eccedb19c46 
+                {
+                  resolution = {width = 1024, height = 1024}, 
+                  color = {red = 1., green = 1., blue = 1.}
+                }
+              }, 
+              => 'SpecularSurfaceComponent @5ae20d6d8b8e6dd9 
+              {
+                map = => 'UniformLayerGenerator @e41a72d2d461bb70 
+                {
+                  resolution = {width = 1024, height = 1024}, 
+                  color = {red = 1., green = 1., blue = 1.}
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }, 
+  uiState = => 'DefaultDocumentEditor 
+  {
+    state = 
+    {
+      currentVisualizerView = => 'Void void, 
+      currentElementEditor = GizmoTimelineEditor, 
+      currentSelection = {{"data", -> @76b99dd754767a02}}
+    }, 
+    internal = => 'SplitLayout 
+    {
+      ratio = 0.6, 
+      first = 'SplitLayout 
+      {
+        ratio = 0.7, 
+        first = 'GizmoVisualizerEditor 
+        {
+          widget = 'ToolsAndContentLayout 
+          {
+            content = 'DocumentWeakPointerContextualEditor 
+            {
+              state = 
+              {
+                {
+                  key = => 'ObjectWeakPointer {"data", -> @6b53d8ff6d639913}, 
+                  value = => => 'NodeVisualizer void
+                }, 
+                {
+                  key = => 'ObjectWeakPointer {"data", -> @f617c8327cfb372e}, 
+                  value = => => 'LayerGeneratorVisualizer void
+                }
+              }
+            }
+          }, 
+          state = {targetPointer = {"data", -> @f617c8327cfb372e}, targetPointerAsSelection = {{"data", -> @f617c8327cfb372e}}}
+        }, 
+        second = 'ElementEditorsTabbedLayout 
+        {
+          widgets = 
+          {
+            'GizmoTimelineEditor 
+            {
+              widget = 'ToolsAndContentLayout 
+              {
+                content = 'DocumentWeakPointerContextualEditor 
+                {
+                  state = 
+                  {
+                    {
+                      key = => 'ObjectWeakPointer {"data", -> @edd2bf1facf1d2a1}, 
+                      value = => => 'AnimationEditor 
+                      {
+                        widget = 'AnimationFunctionEditor 
+                        {
+                          internal = => 'ToolsAndContentLayout {content = 'WidgetOverlay {content = 'SplitLayout {ratio = 0.45}}}
+                        }, 
+                        state = 
+                        {
+                          inputRanges = 
+                          {
+                            {
+                              key = => Seconds, 
+                              value = => 
+                              {
+                                range = {position = -3., scale = {scale = 0.135245901639}}, 
+                                currentValue = => 'Seconds 0.
+                              }
+                            }
+                          }, 
+                          currentCue = {"data", -> @edd2bf1facf1d2a1}
+                        }
+                      }
+                    }
+                  }
+                }
+              }, 
+              state = {targetPointer = {"data", -> @edd2bf1facf1d2a1}, targetPointerAsSelection = {{"data", -> @edd2bf1facf1d2a1}}}
+            }
+          }, 
+          currentTabIndex = 0
+        }
+      }, 
+      second = 'SplitLayout 
+      {
+        ratio = 0.65, 
+        first = 'OwnedPointerContextualEditor 
+        {
+          currentEditor = 'ElementTableEditor 
+          {
+            widget = 'ToolsAndContentLayout 
+            {
+              content = 'ElementTableWidget 
+              {
+                state = 
+                {
+                  header = => 'TableHeader 
+                  {
+                    stretchToFit = True, 
+                    columns = 
+                    {
+                      => {name = "visualize", width = 22}, 
+                      => {name = "elements", width = 212}, 
+                      => {name = "status", width = 22}, 
+                      => {name = "activation", width = 22}, 
+                      => {name = "solo", width = 22}, 
+                      => {name = "colorLabel", width = 22}, 
+                      => {name = "editable", width = 22}, 
+                      => {name = "value", width = 232}, 
+                      => {name = "profile", visible = False, width = 180}, 
+                      => {name = "activity", width = 22}, 
+                      => {name = "loading", visible = False, width = 22}, 
+                      => {name = "type", visible = False, width = 100}, 
+                      => {name = "menu", visible = False, width = 22}
+                    }
+                  }, 
+                  expandedRowTargets = 
+                  {
+                    {"data", -> @f617c8327cfb372e}, 
+                    {"data", -> @f617c8327cfb372e, "renderables"}, 
+                    {"data", -> @f617c8327cfb372e, "tools"}, 
+                    {"data", -> @90097dc1e3b7d2e7, "modifiers"}, 
+                    {"data", -> @6b46e89cfd39b325}, 
+                    {"data", -> @6b46e89cfd39b325, "links"}, 
+                    {"data", -> @e8a0109de4a084cc}, 
+                    {"data", -> @e8a0109de4a084cc, "source"}, 
+                    {"data", -> @90097dc1e3b7d2e7}
+                  }, 
+                  selectedRowTargets = {{"data", -> @76b99dd754767a02}}, 
+                  lastSelectedRowTarget = {"data", -> @76b99dd754767a02}
+                }
+              }
+            }
+          }
+        }, 
+        second = 'ElementEditorsTabbedLayout 
+        {
+          widgets = 
+          {
+            'GizmoParametersEditor 
+            {
+              widget = 'ToolsAndContentLayout 
+              {
+                content = 'DocumentWeakPointerContextualEditor 
+                {
+                  state = 
+                  {
+                    {
+                      key = => 'ObjectWeakPointer {"data", -> @f617c8327cfb372e}, 
+                      value = => => 'ElementParametersEditor void
+                    }, 
+                    {
+                      key = => 'ObjectWeakPointer {"data", -> @76b99dd754767a02}, 
+                      value = => => 'ElementParametersEditor void
+                    }, 
+                    {
+                      key = => 'ObjectWeakPointer {"data", -> @e8a0109de4a084cc}, 
+                      value = => => 'ElementParametersEditor void
+                    }, 
+                    {
+                      key = => 'ObjectWeakPointer {"data", -> @6b53d8ff6d639913}, 
+                      value = => => 'ElementParametersEditor void
+                    }, 
+                    {
+                      key = => 'ObjectWeakPointer {"data", -> @1e7ce2f5fbc29ecb}, 
+                      value = => => 'ElementParametersEditor void
+                    }
+                  }
+                }
+              }, 
+              state = {targetPointer = {"data", -> @76b99dd754767a02}, targetPointerAsSelection = {{"data", -> @76b99dd754767a02}}}
+            }
+          }, 
+          currentTabIndex = 0
+        }
+      }
+    }
+  }
+}
