@@ -32,6 +32,7 @@ Environments listed here are headed towards creation and/or manipulation of real
 ### Unreleased/Beta/coming Soon
 - cables.gl https://cables.gl/
 - wire https://www.moditone.com/wire
+- flaretic http://www.flaretic.com/
 
 ### Outdated
 - Quarz Composer https://developer.apple.com/library/archive/documentation/GraphicsImaging/Conceptual/QuartzComposerUserGuide/qc_intro/qc_intro.html
