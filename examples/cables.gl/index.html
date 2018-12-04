@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>envCompare | made with cables</title>
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1">
+    <style>
+        body { 
+            margin: 0;
+            background-color: #000;
+            color: #fff;
+            font-family: Helvetica, Arial, sans-serif;
+        }
+        canvas {
+            display: block;
+        }
+        footer {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            box-sizing: border-box;
+            width: 100vw;
+            padding: 20px;
+            text-align: right;
+            font-size: 18px;
+            color: #24baa7;
+        }
+        footer a, footer a:hover, footer a:active {
+            color: #24baa7;
+        }
+    </style>
+</head>
+<body>
+    <canvas id="glcanvas" width="100vw" height="100vh"></canvas>
+    <footer>
+        made with <a href="https://cables.gl">cables</a>
+        <!-- we would greatly appreciate if you link cables somewhere on your site! thanks <3 -->
+    </footer>
+
+    <script type="text/javascript" src="js/libs.core.min.js"></script>
+    <script type="text/javascript" src="js/cables.min.js"></script>
+    
+    <script type="text/javascript" src="js/ops.js"></script>
+    
+    <script>
+        /**
+         * Called when there was a cables error.
+         * @param {string} errId - ID of the error, e.g. 'NO_WEBGL' or 'NO_WEBAUDIO' 
+         *                         when the browser does not support the used APIs
+         * @param {string} errMsg - The error message
+         */
+        function showError(errId, errMsg) {
+            alert('An error occured: ' + errId + ', ' + errMsg);
+        }
+
+        function patchInitialized() {
+            // You can now access the patch object (CABLES.patch), register variable watchers and so on
+        }
+
+        function patchFinishedLoading() {
+            // The patch is ready now, all assets have been loaded
+        }
+
+        document.addEventListener('DOMContentLoaded', function(event) {
+            CABLES.patch = new CABLES.Patch({
+                patchFile: 'js/envCompare.json',
+                prefixAssetPath: '',
+                glCanvasId: 'glcanvas',
+                glCanvasResizeToWindow: true,
+                onError: showError,
+                onPatchLoaded: patchInitialized,
+                onFinishedLoading: patchFinishedLoading,
+            });
+        });
+    </script>
+</body>
+</html>
