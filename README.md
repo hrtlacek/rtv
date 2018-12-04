@@ -6,6 +6,10 @@ Not included are environments that are so broad that one could do just about eve
 
 *Discliamer*: The author of this document is basically a TouchDesigner/Max/python/GLSL guy doing live performances and installations in an art context. Any bias towards these tools/needs are tried to be avoided but probably inevitable.
 
+## Examples
+The examples directory is supposed to hold a highly simplistic example for the specific language. 
+This example should play back an audio file or use live audio input and use this data to somehow (RMS, FFT) modulate the scale of a simplistic 3d object (Sphere, cube) that is rendered. 
+
 ## Environments
 ### Short List
 Environments listed here are headed towards creation and/or manipulation of real-time video content as a big part of their whole purpose. Environments excluded here are tools that arguably have a different purpose as a whole. Also excluded are unreleased, unstable or outdated environments.
