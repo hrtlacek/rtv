@@ -16,6 +16,7 @@ Environments listed here are headed towards creation and/or manipulation of real
 
 - cinder https://www.libcinder.org/
 - fugio https://www.bigfug.com/software/fugio/
+- hydra https://github.com/ojack/hydra?fbclid=IwAR0ZJDLSSqnpiFc4_eIyo4lDPHVj31Tv5qKYLLBq-nlfUdI6zX9evy7H7s4
 - isadora https://troikatronix.com/
 - KodeLife https://hexler.net/software/kodelife
 - Max/MSP/Jitter https://cycling74.com/
