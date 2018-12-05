@@ -7,8 +7,8 @@ Not included are environments that are so broad that one could do just about eve
 *Discliamer*: The author of this document is basically a TouchDesigner/Max/python/GLSL guy doing live performances and installations in an art context. Any bias towards these tools/needs are tried to be avoided but probably inevitable.
 
 ## Examples
-The examples directory is supposed to hold a highly simplistic example for the specific language. 
-This example should play back an audio file or use live audio input and use this data to somehow (RMS, FFT) modulate the scale of a simplistic 3d object (Sphere, cube) that is rendered. 
+The examples directory is supposed to hold a highly simplistic example for the specific language.
+This example should play back an audio file or use live audio input and use this data to somehow (RMS, FFT) modulate the scale of a simplistic 3d object (Sphere, cube) that is rendered.
 
 ## Environments
 ### Short List
@@ -22,6 +22,7 @@ Environments listed here are headed towards creation and/or manipulation of real
 - notch https://www.notch.one/
 - openFrameworks https://openframeworks.cc/
 - pd/ofelia https://github.com/cuinjune/ofxOfelia
+- PraxisLIVE https://www.praxislive.org
 - Processing https://processing.org/
 - smode http://smode.fr/products/
 - tooll http://tooll.io/
@@ -29,14 +30,14 @@ Environments listed here are headed towards creation and/or manipulation of real
 - Unity https://unity3d.com/
 - Unreal Engine https://www.unrealengine.com
 - ventuz https://www.ventuz.com/
+- vuo https://vuo.org/
 - vvvv https://vvvv.org/
 - vvvvjs http://vvvvjs.com/
-- vuo https://vuo.org/
 
 ### Unreleased/Beta/coming Soon
 - cables.gl https://cables.gl/
-- wire https://www.moditone.com/wire
 - flaretic http://www.flaretic.com/
+- wire https://www.moditone.com/wire
 
 ### Outdated
 - Quarz Composer https://developer.apple.com/library/archive/documentation/GraphicsImaging/Conceptual/QuartzComposerUserGuide/qc_intro/qc_intro.html
@@ -52,6 +53,11 @@ Realted tools and tools I don't know much about.
 - vizrt http://www.vizrt.com/
 - watchout https://www.dataton.com/products/watchout
 - lightact https://lightact-systems.com/
+
+## Evaluation
+This repo also tries to evaluate the different environments numerically. Please take these numbers with a grain of salt. What does it mean that tool x has a documentation with a value of 0.7568? and not 0.879?
+Well, it is an attempt to structure the wood of environments but it is of course a bit hard to evaluate some parameters. Others, such as 'does environment x run on Linux' are of course objective and trustworthy.
+![3D plot](https://raw.githubusercontent.com/hrtlacek/rtv/dev/img/compare3d.png)
 
 <!--
 ### Notch
