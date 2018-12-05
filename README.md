@@ -65,8 +65,9 @@ There are several tools that make (live-)coding in GLSL/HLSL easier/more interes
 This repo also tries to evaluate the different environments numerically. Please take these numbers with a grain of salt. What does it mean that tool x has a documentation with a value of 0.7568? and not 0.879?
 Well, it is an attempt to structure the wood of environments but it is of course a bit hard to evaluate some parameters. Others, such as 'does environment x run on Linux' are of course objective and trustworthy.
 
-The dataset is located in this repository and a colab notebook that plots teh data is located here for now:
-https://colab.research.google.com/drive/18XNz7i0OoGwXYcB1Ts6XVH0Dfg1ZioKD
+The dataset and an ipython notebook in this repo is used to plot/explore it.
+You can look at it/play around with it via jupyter notebook or via collab online:
+https://colab.research.google.com/github/hrtlacek/rtv/blob/master/notebook/compareEnvs.ipynb
 
 ![3D plot](https://raw.githubusercontent.com/hrtlacek/rtv/dev/img/compare3d.png)
 
