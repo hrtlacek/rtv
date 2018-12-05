@@ -56,7 +56,7 @@ Realted tools and tools I don't know much about.
 - lightact https://lightact-systems.com/
 
 ### pure GLSL/HLSL coding environments
-There are several tools that make (live-)coding in GLSL/HLSL easier/more interesting/convenient or make coding of GLSL relevant in a live show context. Without trying to list all of these, some should probably be mentioned:
+There are several tools that make (live-)coding in GLSL/HLSL easier/more interesting/convenient or make coding of GLSL relevant in a live show context. Trying to list all of them is not the idea here. But it's probably important to mention their existence/relevance as a whole.
 - Veda (live glsl coding plugin for atom) https://atom.io/packages/veda?fbclid=IwAR0OHui3eTsAEYNLOpKYMNfrPIsr5AXMyCyBndvVcCzEwVtGH1D4qZ7HLFM
 - glslViewer (glsl viewer plugin for sublime text) https://packagecontrol.io/packages/glslViewer
 - shadertoy http://shadertoy.com/
