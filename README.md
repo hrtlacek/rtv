@@ -55,6 +55,12 @@ Realted tools and tools I don't know much about.
 - watchout https://www.dataton.com/products/watchout
 - lightact https://lightact-systems.com/
 
+### pure GLSL/HLSL coding environments
+There are several tools that make (live-)coding in GLSL/HLSL easier/more interesting/convenient or make coding of GLSL relevant in a live show context. Without trying to list all of these, some should probably be mentioned:
+- Veda (live glsl coding plugin for atom) https://atom.io/packages/veda?fbclid=IwAR0OHui3eTsAEYNLOpKYMNfrPIsr5AXMyCyBndvVcCzEwVtGH1D4qZ7HLFM
+- glslViewer (glsl viewer plugin for sublime text) https://packagecontrol.io/packages/glslViewer
+- shadertoy http://shadertoy.com/
+
 ## Evaluation
 This repo also tries to evaluate the different environments numerically. Please take these numbers with a grain of salt. What does it mean that tool x has a documentation with a value of 0.7568? and not 0.879?
 Well, it is an attempt to structure the wood of environments but it is of course a bit hard to evaluate some parameters. Others, such as 'does environment x run on Linux' are of course objective and trustworthy.
