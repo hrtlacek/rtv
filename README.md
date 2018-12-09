@@ -70,7 +70,14 @@ You can look at it/play around with it via jupyter notebook or via collab online
 https://colab.research.google.com/github/hrtlacek/rtv/blob/master/notebook/compareEnvs.ipynb
 
 ### What do these Vague Categories Mean?
-These are categories that are meant to characterize the purpose a specific tool is used best for. It is of course a bit weird to say environment x has a science score of 0.6. But there is some thought behind this:
+These are categories that are meant to characterize the purpose a specific tool is used best for. It is of course a bit weird to say environment x has a science score of 0.6. That is why there are two versions of the really vague Categories(SCience, Experimental, Creativity,Show Production) :
+- Opinionated
+- Calculated
+
+The opinionated version still is useful since the calculated version fails to capture some stuff (too little data). For example vvvv and Max/Jitter have a pretty low rating for Show Production. This is because Max/MSP for example does not support DMX out of the box and it has not time-line editor out of the box.
+Both of these Environments are used a lot in a live show context (which is a feature that is hard to enumerate). Below you can find how both the calculated version and the opinionated version came up.
+
+### Opinionated
 
 #### Science
 An environments get a high score for this category if the following is true:
@@ -119,16 +126,19 @@ An environments get a high score for this category if the following is true:
 - linux support
 - built-in support for computer-vision
 
-### Attempt to making it Objective
-In an attempt to support the numbers there is a calculated rating of the above vague categories. These are just averages of specific features as explained below. Some of the feature that go in the calculation are still subjective(such as 'easiness' or 'out-of-the-box fancy output'. One could for example calculate the 'fancy output' thing by averaging a number of by default enabled features such as anti-aliasing, SSAO of DOF. But this really goes a bit far already.
-####
+![3D plot](https://raw.githubusercontent.com/hrtlacek/rtv/dev/img/opinion.png)
+
+
+### Calculated
+In an attempt to support the numbers there is a calculated rating of the above vague categories. These are just averages of specific features as explained below. Some of the features that go in the calculation are still subjective(such as 'easiness' or 'out-of-the-box fancy output'. One could for example calculate the 'fancy output' thing by averaging a number of by default enabled features such as anti-aliasing, SSAO of DOF. But this really goes a bit far already.
+
 Creativity:
 - out-of-the-box 'Fancy' Output
-- out-of-the-box 3d Viewports
+- out-of-the-box 3D Viewports
 - visual programming
-- 2d Post-pro
+- 2D Post-pro
 - Procedural Geometry
-- Easyness
+- Easiness
 
 Science:
 - Text Programming
@@ -138,8 +148,8 @@ Science:
 - Audio Analysis
 
 Show Production:
-- out-of-the-box timeline
-- out-of-the-box 3D viewports
+- out-of-the-box time-line
+- out-of-the-box 3D view-ports
 - DMX/Artnet support
 - out-of-the-box 'Fancy' output
 
@@ -150,7 +160,7 @@ Experimental:
 - Open Source
 - Linux Support
 
-![3D plot](https://raw.githubusercontent.com/hrtlacek/rtv/dev/img/compare3d.png)
+![3D plot](https://raw.githubusercontent.com/hrtlacek/rtv/dev/img/calc.png)
 
 <!--
 ### Notch
