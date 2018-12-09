@@ -70,18 +70,21 @@ You can look at it/play around with it via jupyter notebook or via collab online
 https://colab.research.google.com/github/hrtlacek/rtv/blob/master/notebook/compareEnvs.ipynb
 
 ### What do these Vague Categories Mean?
-These are categories that are meant to characterize the purpose a specific tool is used best for. It is of course a bit weird to say environmentx has a science score of 0.6. But there is some thought behind this:
+These are categories that are meant to characterize the purpose a specific tool is used best for. It is of course a bit weird to say environment x has a science score of 0.6. But there is some thought behind this:
+
 #### Science
-An environments get a high score for tis category if the following is true:
+An environments get a high score for this category if the following is true:
 - It is often or sometimes used in a science context
 - It is advertised as being a good tool for research
 - it is open source
 - It has some text programming capabilities
 - Its files are not stored as binary (but as JSON for example) and general openness
 - It's highly extensible
+- support for computer-vision
+- linux support
 
-### Creativity
-An environments get a high score for tis category if the following is true:
+#### Creativity
+An environments get a high score for this category if the following is true:
 - It is often or sometimes used in an art context
 - It is advertised as being a good tool for design
 - It's beginner and artist friendly and does not need a lot of know-how of inner workings
@@ -89,27 +92,31 @@ An environments get a high score for tis category if the following is true:
 - Ease of use is an obvious priority of the environment (technical things are not in the way)
 - Reinventing the wheel is nearly not necessary
 - It supports some kind of graphical programming environment(not only text programming)
+- has built-in out-of-the-box 3d viewports (such as smode, notch, touchDesigner)
+- Offers 'fancy' output out-of-the-box, without tweaking a lot (anti-aliasing etc)
 
-### Show Production
-An environments get a high score for tis category if the following is true:
+#### Show Production
+An environments get a high score for this category if the following is true:
 - It is often or sometimes used in a professional Live-Show/Set-design context
 - It is advertised as being a good tool for professional large-scale live shows
-- It offers great out-of-the-box integration of current technology(Kinect, Leap motion, realSense, Dante, posiStage)
+- It offers great out-of-the-box integration of current technology(Kinect, NDI, Dante, posiStage)
 - Extremely stable
 - out-of-the-box 2D/3D  Mapping capabilities
 - Good interfaces to other professional software that is widely used (Substance Designer, Photoshop, various 3d Modelling Tools etc)
 - DMX/Artnet support out-of-the-box
 - It has some kind of Linear/Keyframing (time line) functionality
 
-### Experimental
-An environments get a high score for tis category if the following is true:
+#### Experimental
+An environments get a high score for this category if the following is true:
 - It is often or sometimes used in an experimental/art context
 - It is advertised as being a good tool for art based research
 - It's open source
 - It supports current technologies such as HIDs and VR
 - It's highly extensible
 - It's not very specialized or very specialized on a not so common technique (such as live coding)
-
+- It's not extremely expensive
+- linux support
+- built-in support for computer-vision
 
 ![3D plot](https://raw.githubusercontent.com/hrtlacek/rtv/dev/img/compare3d.png)
 
