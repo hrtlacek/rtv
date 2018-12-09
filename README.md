@@ -126,7 +126,7 @@ An environments get a high score for this category if the following is true:
 - linux support
 - built-in support for computer-vision
 
-![3D plot](https://raw.githubusercontent.com/hrtlacek/rtv/dev/img/opinion.png)
+![3D plot](https://raw.githubusercontent.com/hrtlacek/rtv/master/img/opinion.png)
 
 
 ### Calculated
@@ -160,7 +160,7 @@ Experimental:
 - Open Source
 - Linux Support
 
-![3D plot](https://raw.githubusercontent.com/hrtlacek/rtv/dev/img/calc.png)
+![3D plot](https://raw.githubusercontent.com/hrtlacek/rtv/master/img/calc.png)
 
 <!--
 ### Notch
