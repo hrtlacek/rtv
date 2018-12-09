@@ -1,11 +1,11 @@
-name, address,learning Curve/Easyness,Fancy Output From The beginning,Windows,MacOS,Linux,Documentation,Open Source,Science,Creativity,Experimental,Show Production,Web,Procedural Geo,2D postPro,Audio Analysis,Computer Vision/Analysis,Specialized,DMX/Artnet Support,Text Programming,Visual Programming,Out-of-the-box timeline,Out-of-the-box 3D viewports,Cost,Scripting/Additional Language(s),Reference Tutorial
-TouchDesigner, https://www.derivative.ca/,0.8,0.8,1,1,0,0.8,0,0.7,1,0.9,1,0,0.9,1,0.8,0.2,0.5,1,1,1,1,1,Free*,Python/C++/GLSL,https://www.youtube.com/watch?v=GPI8W_wsWtY
-Max_MSP_Jitter, https://cycling74.com/,0.8,0.7,1,1,0,0.8,0,0.7,0.9,0.9,0.7,0,0.7,0.6,1,0.7,0.4,0.5,1,1,0,0,$399.00,C++/js/java/GLSL,https://www.youtube.com/watch?v=yqI39xxTiDs
-vvvv, https://vvvv.org/,0.7,0.5,1,0,0,0.8,1,0.7,0.9,1,0.8,0,0.8,0.8,0.8,0.8,0.5,1,1,1,0,0,Free*,C#/GLSL,https://www.youtube.com/watch?v=XTVBdWnsxk0
-Processing, https://processing.org/,0.5,0.5,1,1,1,0.7,1,0.8,0.6,0.9,0.7,0.8,0.7,0.7,0.8,0.8,0.5,0.5,1,0,0,0,Free,Java,https://www.youtube.com/watch?v=XS62cBK9E7w
-Unity, https://unity3d.com/,0.7,0.7,1,1,1,0.7,0,0.8,0.7,0.8,0.5,0.8,0.3,0.5,0.7,0,0.7,0.3,1,0,1,1,Free*,C#/GLSL,https://www.youtube.com/watch?v=wtXirrO-iNA
-Unreal, https://www.unrealengine.com,0.7,0.9,1,1,1,0.7,0,0.3,0.7,0.7,0.4,0.8,0.3,0.5,0.7,0,0.9,0.2,1,1,1,1,Free*,C++/js/GLSL,https://www.youtube.com/watch?v=CkAlenO9q1Q
-KodeLife, https://hexler.net/software/kodelife,0.3,0,1,1,1,0,0,0.2,0.7,0.9,0.5,0,0.4,0.5,0.5,0,0.9,0,1,0,0,0,Free,GLSL,https://www.youtube.com/watch?v=wHT5qdJYVe4
-openFrameworks, https://openframeworks.cc/,0.2,0,1,1,1,0.7,1,0.9,0.6,0.9,0.5,0,0.5,0.5,0.8,0.9,0.4,0.5,1,0,0,0,Free,C++,https://www.youtube.com/watch?v=IiTsE7P-GDs&t=261
-smode, http://smode.fr/products/,0.8,0.7,1,1,0,0.8,0,0,1,0.7,0.8,0,0.8,1,0.5,0.5,0.9,1,1,0,1,1,Free*,,https://www.youtube.com/watch?time_continue=35&v=v9rres8-pDw
-notch, https://www.notch.one/,0.8,0.8,1,0,0,0.8,0,0,1,0.7,1,0,0.9,1,0.5,0.5,0.9,1,1,1,1,1,£99 perpetual,,https://www.youtube.com/watch?v=zbSC7BA92Kk
+name, address,learning Curve/Easyness,Fancy Output From The beginning,Windows,MacOS,Linux,Documentation,Open Source,Science(opinion),Creativity(opinion),Experimental(opinion),Show Production(opinion),Web,Procedural Geo,2D postPro,Audio Analysis,Computer Vision/Analysis,Specialized,DMX/Artnet Support,Text Programming,Visual Programming,Out-of-the-box timeline,Out-of-the-box 3D viewports,creativity(calc),science(calc),show production(calc),experimental(calc),Cost,Scripting/Additional Language(s),Reference Tutorial
+TouchDesigner, https://www.derivative.ca/,0.8,0.8,1,1,0,0.8,0,0.7,1,0.9,1,0,0.9,1,0.8,0.2,0.5,1,1,1,1,1,0.94,0.4,0.95,0.44,Free*,Python/C++/GLSL,https://www.youtube.com/watch?v=GPI8W_wsWtY
+Max_MSP_Jitter, https://cycling74.com/,0.8,0.7,1,1,0,0.8,0,0.7,0.9,0.9,0.7,0,0.7,0.6,1,0.7,0.4,0.5,1,1,0,0,0.62,0.54,0.3,0.54,$399.00,C++/js/java/GLSL,https://www.youtube.com/watch?v=yqI39xxTiDs
+vvvv, https://vvvv.org/,0.7,0.5,1,0,0,0.8,1,0.7,0.9,1,0.8,0,0.8,0.8,0.8,0.8,0.5,1,1,1,0,0,0.66,0.72,0.375,0.76,Free*,C#/GLSL,https://www.youtube.com/watch?v=XTVBdWnsxk0
+Processing, https://processing.org/,0.5,0.5,1,1,1,0.7,1,0.8,0.6,0.9,0.7,0.8,0.7,0.7,0.8,0.8,0.5,0.5,1,0,0,0,0.38,0.92,0.25,0.76,Free,Java,https://www.youtube.com/watch?v=XS62cBK9E7w
+Unity, https://unity3d.com/,0.7,0.7,1,1,1,0.7,0,0.8,0.7,0.8,0.5,0.8,0.3,0.5,0.7,0,0.7,0.3,1,0,1,1,0.5,0.54,0.75,0.4,Free*,C#/GLSL,https://www.youtube.com/watch?v=wtXirrO-iNA
+Unreal, https://www.unrealengine.com,0.7,0.9,1,1,1,0.7,0,0.3,0.7,0.7,0.4,0.8,0.3,0.5,0.7,0,0.9,0.2,1,1,1,1,0.7,0.54,0.775,0.6,Free*,C++/js/GLSL,https://www.youtube.com/watch?v=CkAlenO9q1Q
+KodeLife, https://hexler.net/software/kodelife,0.3,0,1,1,1,0,0,0.2,0.7,0.9,0.5,0,0.4,0.5,0.5,0,0.9,0,1,0,0,0,0.24,0.5,0,0.4,Free,GLSL,https://www.youtube.com/watch?v=wHT5qdJYVe4
+openFrameworks, https://openframeworks.cc/,0.2,0,1,1,1,0.7,1,0.9,0.6,0.9,0.5,0,0.5,0.5,0.8,0.9,0.4,0.5,1,0,0,0,0.24,0.94,0.125,0.78,Free,C++,https://www.youtube.com/watch?v=IiTsE7P-GDs&t=261
+smode, http://smode.fr/products/,0.8,0.7,1,1,0,0.8,0,0,1,0.7,0.8,0,0.8,1,0.5,0.5,0.9,1,1,0,1,1,0.72,0.4,0.925,0.3,Free*,,https://www.youtube.com/watch?time_continue=35&v=v9rres8-pDw
+notch, https://www.notch.one/,0.8,0.8,1,0,0,0.8,0,0,1,0.7,1,0,0.9,1,0.5,0.5,0.9,1,1,1,1,1,0.94,0.4,0.95,0.5,£99 perpetual,,https://www.youtube.com/watch?v=zbSC7BA92Kk

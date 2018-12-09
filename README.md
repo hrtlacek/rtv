@@ -94,6 +94,7 @@ An environments get a high score for this category if the following is true:
 - It supports some kind of graphical programming environment(not only text programming)
 - has built-in out-of-the-box 3d viewports (such as unity,unreal,smode, notch, touchDesigner)
 - Offers 'fancy' output out-of-the-box, without tweaking a lot (anti-aliasing etc)
+- Offers good procedural modelling and 2d post-processing features
 
 #### Show Production
 An environments get a high score for this category if the following is true:
@@ -117,6 +118,37 @@ An environments get a high score for this category if the following is true:
 - It's not extremely expensive
 - linux support
 - built-in support for computer-vision
+
+### Attempt to making it Objective
+In an attempt to support the numbers there is a calculated rating of the above vague categories. These are just averages of specific features as explained below. Some of the feature that go in the calculation are still subjective(such as 'easiness' or 'out-of-the-box fancy output'. One could for example calculate the 'fancy output' thing by averaging a number of by default enabled features such as anti-aliasing, SSAO of DOF. But this really goes a bit far already.
+####
+Creativity:
+- out-of-the-box 'Fancy' Output
+- out-of-the-box 3d Viewports
+- visual programming
+- 2d Post-pro
+- Procedural Geometry
+- Easyness
+
+Science:
+- Text Programming
+- Linux support
+- Open source
+- Computer Vision
+- Audio Analysis
+
+Show Production:
+- out-of-the-box timeline
+- out-of-the-box 3D viewports
+- DMX/Artnet support
+- out-of-the-box 'Fancy' output
+
+Experimental:
+- Text Programming
+- Visual Programming
+- Computer Vision
+- Open Source
+- Linux Support
 
 ![3D plot](https://raw.githubusercontent.com/hrtlacek/rtv/dev/img/compare3d.png)
 
