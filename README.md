@@ -22,6 +22,7 @@ Environments listed here are headed towards creation and/or manipulation of real
 - Max/MSP/Jitter https://cycling74.com/
 - notch https://www.notch.one/
 - openFrameworks https://openframeworks.cc/
+- openrndr https://openrndr.org/
 - pd/ofelia https://github.com/cuinjune/ofxOfelia
 - PraxisLIVE https://www.praxislive.org
 - Processing https://processing.org/
@@ -32,7 +33,8 @@ Environments listed here are headed towards creation and/or manipulation of real
 - Unreal Engine https://www.unrealengine.com
 - ventuz https://www.ventuz.com/
 - vuo https://vuo.org/
-- vvvv https://vvvv.org/
+- vvvv beta https://vvvv.org/
+- vvvv gamma https://visualprogramming.net
 - vvvvjs http://vvvvjs.com/
 
 ### Unreleased/Beta/coming Soon
@@ -53,6 +55,7 @@ tools for scientific visualization, neural network video stuff and data parsing
 Realted tools and tools I don't know much about.
 - vizrt http://www.vizrt.com/
 - watchout https://www.dataton.com/products/watchout
+- pixera https://avstumpfl.com/en/pixera
 - lightact https://lightact-systems.com/
 
 ### pure GLSL/HLSL coding environments
