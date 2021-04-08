@@ -1,3 +1,4 @@
+[![DOI](https://zenodo.org/badge/160376324.svg)](https://zenodo.org/badge/latestdoi/160376324)
 # Real Time Visual Content Creation - Overview and Comparison
 
 This Repository tries to compile information about programmable real time video processing environments.
@@ -172,5 +173,6 @@ Experimental:
 Notch founder Talk: https://www.youtube.com/watch?v=YmaTrYjowqo&list=PLKPdnr8oxs8glsn3EOCKtuXT9sDXnqS3M
  -->
 
-
+## Cite this Repository
+You can use the zenodo DOI to cite this work: 10.5281/zenodo.3786411
 
